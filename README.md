@@ -1,6 +1,6 @@
 # Mancala Game + Agents in Python
 
-This is a project I started after hearing about a game called mancala on [a YouTube video](https://www.youtube.com/watch?v=RdbvgP1DQN0). In the video, one of the guys mention he created an AI agent that was able to play mancala at an advanced level.
+This is a project I started after hearing about a game called mancala on [a YouTube video](https://www.youtube.com/watch?v=RdbvgP1DQN0). In the video, one of the guys mentions he created an AI agent that was able to play mancala at an advanced level.
 
 My goal is to create my own AI agents for mancala. The first one will be made through the use of Reinforcement Learning. In the future, I might tackle the challenge of creating a search-based agent.
 
