@@ -8,16 +8,16 @@ My goal is to create my own AI agents for mancala. The first one will be made th
 
 The main sources I used to learn about the rules of the game are [this YouTube video](https://www.youtube.com/watch?v=-A-djjimCcM) and the [Wikipedia page](https://en.wikipedia.org/wiki/Mancala) on the game.
 
-The game I modeled is played by two players and has 2 rows of 6 holes in each, Each hole starts with 4 seeds. 2 additional holes at the right end of each row is the player's hole, where their points are kept. According to The Wiki, it looks like the games of [kalah](https://en.wikipedia.org/wiki/Kalah) or [oware](https://en.wikipedia.org/wiki/Oware).
+The game I modeled is played by two players and has 2 rows with 6 holes each. Each hole starts with 4 seeds. 2 additional holes at the right end of each row are the players' holes, where their points are kept. According to Wikipedia, of all the variants of mancala, the game I am implementing has more similarities with the variants called [kalah](https://en.wikipedia.org/wiki/Kalah) and [oware](https://en.wikipedia.org/wiki/Oware).
 
 ## Rules of the game
 
 There are many different rules to mancala. I have implemented these ones:
 
  * A player can only start their turn by selecting a hole on their side of the board.
- * If a player ends his stone with a point move they get an additional turn.
- * Multiple laps or relay sowing: if the last seed during sowing lands in an occupied hole, all the contents of that hole, including the last sown seed, are immediately re-sown from the hole.
+ * If a player ends their move by placing a stone in their hole, they get an additional turn.
+ * Multiple laps or "relay sowing": if the last seed during sowing lands in an occupied hole, all the contents of that hole, including the last sown seed, are immediately re-sown from the hole.
 
-An additional rule, which seems famous but I have not implemented is the one in which, if a player's sowing ends in an empty hole on their side of the board, they steal the seeds from the opponent's hole opposite to their empty hole and add to it.
+An additional rule, which seems famous but I have not implemented, is the one in which, if a player's sowing ends in an empty hole on their side of the board, they steal the seeds from the opponent's hole opposite to their empty hole and add to it.
 
 The game ends when the board has no seeds in one of the player's sides.
